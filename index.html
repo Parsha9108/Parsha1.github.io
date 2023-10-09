@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>UserName validation</title>
+</head>
+<body bgcolor="#FFA1F5">
+
+
+    <form action="userMesaage.html">
+        <fieldset>
+
+     <legend><h1>UserName validation</h1></legend>
+      <br><br>
+     <label for="sal">Salutation</label><br>
+     <select name="sal" id="sal">
+       <option value="nn">--None--</option> 
+     <option value="Mr.">Mr.</option>
+     <option value="Mrs.">Mrs.</option>
+     <option value="Dr.">Dr.</option>
+     <option value="Mr.">Mr.</option>
+
+
+     </select>
+     <br><br>
+     <label for="us">UserName</label>
+     <input type="text" required id="us" placeholder="Ex:Sachin" name="us" pattern="[A-Za-z]{3,7}">
+
+     <br><br>
+
+     <label for="contact">Contact</label>
+     &nbsp; &nbsp;&nbsp;
+    
+     <input type="text"  id="contact" name="contact"placeholder="Ex:6345659856" pattern="[6-9]{1}[0-9]{9}">
+     <br><br>
+     <label for="g">Gender</label><br>
+     <input type="radio" id="ge" name="ge">
+     <label for="ge">Male</label>
+     <input type="radio" id="fe" name="ge">
+     <label for="fe">Female</label>
+     <input type="radio" id="ot" name="ge">
+     <label for="ot">Others</label><br><br>
+     <label for="Email">Email</label>
+     &nbsp; &nbsp; &nbsp;
+     <input type="email" name="em" id="Email">
+     <br><br>
+     <label for="pp">Password</label>
+     <input type="password"  id="pp" name="pp"  pattern="[A-Za-z]{4-8}">
+     <br><br>
+     <label for="ad">Address</label><br>
+     <textarea name="ad" id="ad" cols="30" rows="10"></textarea><br>
+     <input type="reset">
+     
+     <!--this is comment syntax-->
+
+    </fieldset>
+    <br>
+
+    <input type="SUBMIT">
+    
+
+
+    </form>
+</body>
+</html>
